@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/tablet_detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.bakingapp.rizwan.activities.IngredientStepsActivity">
+
+
+    <FrameLayout
+            android:id="@+id/ingredients_fragment_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/ingr_frag_tablet_start"
+            android:layout_marginEnd="@dimen/ingr_frag_tablet_end"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/steps_fragment_container"
+            app:layout_constraintVertical_weight="0.4"
+            >
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/video_fragment_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/video_frag_tablet_top"
+            app:layout_constraintStart_toEndOf="@+id/ingredients_fragment_container"
+            app:layout_constraintBottom_toTopOf="@+id/steps_fragment_container"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintHorizontal_chainStyle="spread">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/steps_fragment_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/step_frag_tablet_start"
+            android:layout_marginEnd="@dimen/step_frag_tablet_end"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ingredients_fragment_container"
+           >
+        </FrameLayout>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

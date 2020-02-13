@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ingredient_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/ingredient_name"
+        style="@style/FragmentIngListStyle"
+        android:layout_below="@id/ingredient_quantity"
+        tools:text="@string/ingredient_name" />
+
+    <TextView
+        android:id="@+id/ingredient_quantity"
+        style="@style/FragmentIngListStyle"
+        android:layout_marginTop="@dimen/ingr_list_top"
+        tools:text="@string/ingredient_quantity" />
+
+    <TextView
+        android:id="@+id/ingredient_measure"
+        style="@style/FragmentIngListStyle"
+        android:layout_marginTop="@dimen/ingr_list_top"
+        android:layout_toEndOf="@id/ingredient_quantity"
+        tools:text="@string/ingredient_measure" />
+</RelativeLayout>
+

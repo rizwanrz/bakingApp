@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4A62E4</color>
+    <color name="colorPrimaryDark">#0B22B6</color>
+    <color name="colorAccent">#9E0E3F</color>
+    <color name="colorSecondary">#768AF5</color>
+
+    <!-- Ingredient title text color. -->
+    <color name="ingredientTextColor">#FFFFFF</color>
+
+    <!-- Steps short description title text color. -->
+    <color name="stepsShortTextColor">#530A2F</color>
+    <color name="dark_blue">#120424</color>
+    <color name="dark_red">#940202</color>
+    <color name="light_yellow">#FFEB3B</color>
+    <color name="light_gray">#DBCDCD</color>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progress_bar">42dp</dimen>
+
+    <!-- Progress bar margins in activity_main -->
+    <dimen name="progress_bar_start">260dp</dimen>
+    <dimen name="progress_bar_end">260dp</dimen>
+    <dimen name="progress_bar_left">260dp</dimen>
+    <dimen name="progress_bar_right">260dp</dimen>
+    <dimen name="progress_bar_top">295dp</dimen>
+
+    <!-- Error message padding and text size specifications in activity_main -->
+    <dimen name="error_padding">3dp</dimen>
+    <dimen name="error_text">20sp</dimen>
+
+    <!-- IngredientStepsActivity Fragments FrameLayout width, height & margins -->
+    <dimen name="ingr_frame_activity_start">5dp</dimen>
+    <dimen name="ingr_frame_activity_end">30dp</dimen>
+    <dimen name="ingr_frame_activity_top">10dp</dimen>
+    <dimen name="step_frame_activity_start">5dp</dimen>
+    <dimen name="step_frame_activity_end">10dp</dimen>
+
+    <!-- IngredientStepsActivity sw600dp Fragments FrameLayout width, height & margins -->
+    <dimen name="ingr_frag_tablet_start">10dp</dimen>
+    <dimen name="ingr_frag_tablet_end">40dp</dimen>
+    <dimen name="video_frag_tablet_start">16dp</dimen>
+    <dimen name="video_frag_tablet_end">16dp</dimen>
+    <dimen name="video_frag_tablet_top">70dp</dimen>
+    <dimen name="step_frag_tablet_start">10dp</dimen>
+    <dimen name="step_frag_tablet_end">40dp</dimen>
+
+    <!-- VideoPhoneActivity FrameLayout Exoplayer width, height & margins -->
+    <dimen name="height_videophone_frame">500dp</dimen>
+    <dimen name="start_videophone_frame">25dp</dimen>
+    <dimen name="end_videophone_frame">25dp</dimen>
+    <dimen name="top_videophone_frame">20dp</dimen>
+
+    <!-- CardView margins in recipe_list_item -->
+    <dimen name="card_margin">5dp</dimen>
+
+    <!-- ImageView width, height and padding specifications in recipe_list_item -->
+    <dimen name="image_view_width">300dp</dimen>
+    <dimen name="image_view_height">150dp</dimen>
+    <dimen name="image_view_padding">4dp</dimen>
+
+    <!-- Recipes list margins and padding -->
+    <dimen name="recipe_name_top">16dp</dimen>
+    <dimen name="recipe_name_text">20sp</dimen>
+
+    <!-- Ingredients list margins and padding -->
+    <dimen name="ingr_list_top">2dp</dimen>
+
+    <!-- Steps list margins and padding -->
+    <dimen name="steps_list_start">20dp</dimen>
+    <dimen name="steps_list_end">20dp</dimen>
+    <dimen name="steps_list_pad">4dp</dimen>
+
+    <!-- Exoplayer width, height & margins -->
+    <dimen name="exoplayer_width">360dp</dimen>
+    <dimen name="exoplayer_height">240dp</dimen>
+    <dimen name="exoplayer_margin_top">16dp</dimen>
+    <dimen name="exoplayer_margin_start">10dp</dimen>
+    <dimen name="exoplayer_margin_end">10dp</dimen>
+
+    <!-- VideoFragment Step Long Description margins -->
+    <dimen name="step_long_top">15dp</dimen>
+    <dimen name="step_long_start">50dp</dimen>
+    <dimen name="step_long_end">50dp</dimen>
+    <dimen name="step_long_width">350dp</dimen>
+
+    <!-- Buttons margins -->
+    <dimen name="prev_button_top">30dp</dimen>
+    <dimen name="prev_button_start">60dp</dimen>
+    <dimen name="next_button_top">30dp</dimen>
+    <dimen name="next_button_start">15dp</dimen>
+
+    <!-- Widget text size & margin-->
+    <dimen name="widget_margin">8dp</dimen>
+
+</resources>

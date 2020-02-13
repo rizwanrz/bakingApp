@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardview1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    card_view:cardCornerRadius="@dimen/card_margin"
+    card_view:cardElevation="@dimen/card_margin"
+    card_view:cardMaxElevation="@dimen/card_margin"
+    card_view:contentPadding="@dimen/card_margin">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/image_of_recipe"
+        android:padding="@dimen/image_view_padding"
+        android:scaleType="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_yellow"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recipeView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/image_view_padding"
+            android:scaleType="fitXY"
+            android:textColor="@color/dark_red"
+            android:textSize="@dimen/recipe_name_text"
+            tools:text="@string/recipe_name" />
+
+        <TextView
+            android:id="@+id/servingsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/image_view_padding"
+            android:scaleType="fitXY"
+            android:textColor="@color/dark_red"
+            android:textSize="@dimen/recipe_name_text"
+            tools:text="@string/servings_number" />
+    </LinearLayout>
+
+</LinearLayout>

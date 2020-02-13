@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Baking Time</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="ingredient_name">Nutella</string>
+    <string name="ingredient_quantity">5</string>
+    <string name="ingredient_measure">cup</string>
+    <string name="ingredients">Ingredients : </string>
+    <string name="previous_step">Previous</string>
+    <string name="next_step">Next</string>
+    <string name="steps">Steps : </string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_view">There is no ingredient</string>
+    <string name="step_instructions">Step instructions</string>
+    <string name="ingr_frag_cont">Vanilla extract</string>
+    <string name="steps_frag_cont">Cookie crust</string>
+    <string name="steps_short_name">Mix all the ingredients</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="servings_number">Servings:</string>
+    <string name="no_internet">Please check your Data connection!</string>
+    <string name="recipe_serves_how_many">Servings: %1$s</string>
+    <string name="image_of_recipe">Image of Recipe</string>
+    <string name="step_image">Step Image</string>
+</resources>

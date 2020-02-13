@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/step_short_desc"
+        style="@style/FragmentStepsListStyle"
+        android:layout_marginStart="@dimen/steps_list_start"
+        android:layout_marginEnd="@dimen/steps_list_end"
+        android:padding="@dimen/steps_list_pad"
+        android:textColor="@color/colorPrimary"
+        tools:text="@string/steps_short_name" />
+</RelativeLayout>
